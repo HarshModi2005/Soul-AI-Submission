@@ -1,0 +1,9 @@
+<script>start("/Users/harshmodi/Desktop/NER_Model/logs/");</script>
+<script>onHasParentDirectory();</script>
+<script>addRow("api_20250317_222829.log","api_20250317_222829.log",0,0,"0 B",1742230709,"17/03/2025, 22:28:29");</script>
+<script>addRow("api_20250317_223349.log","api_20250317_223349.log",0,368,"368 B",1742231486,"17/03/2025, 22:41:26");</script>
+<script>addRow("api_20250318_102555.log","api_20250318_102555.log",0,242,"242 B",1742273755,"18/03/2025, 10:25:55");</script>
+<script>addRow("api_20250318_102748.log","api_20250318_102748.log",0,78,"78 B",1742273869,"18/03/2025, 10:27:49");</script>
+<script>addRow("api_20250318_103016.log","api_20250318_103016.log",0,223,"223 B",1742274092,"18/03/2025, 10:31:32");</script>
+<script>addRow("api_errors.log","api_errors.log",0,11420,"11.2 kB",1742322661,"19/03/2025, 00:01:01");</script>
+<script>addRow("api.log","api.log",0,24172,"23.6 kB",1742325177,"19/03/2025, 00:42:57");</script>
