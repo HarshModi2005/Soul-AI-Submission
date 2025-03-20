@@ -40,16 +40,6 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### Step 4: Set environment variables
-```bash
-# Linux/Mac
-export HUGGINGFACE_TOKEN=your_huggingface_token
-export API_KEY=your_api_key
-
-# Windows
-set HUGGINGFACE_TOKEN=your_huggingface_token
-set API_KEY=your_api_key
-```
 
 ## Running the Application
 
@@ -62,17 +52,6 @@ uvicorn api.app:app --host 0.0.0.0 --port 8000 --reload
 # Open http://localhost:8000/docs in your browser
 ```
 
-### Option 2: Run with Docker
-```bash
-# Build the Docker image
-docker build -t ner-api .
-
-# Run the container
-docker run -p 8000:8000 --env HUGGINGFACE_TOKEN=your_token --env API_KEY=your_key ner-api
-
-# Access the API documentation
-# Open http://localhost:8000/docs in your browser
-```
 
 ## Usage Examples
 
